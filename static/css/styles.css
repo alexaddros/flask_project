@@ -1,0 +1,497 @@
+@font-face {
+  font-family: regular; /* Гарнитура шрифта */
+  src: url(Rubik-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: head; /* Гарнитура шрифта */
+  src: url(Rubik-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+html {
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  width: 1000px;
+}
+
+body {
+  margin: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 5550px;
+  width: 1000px;
+  background-color:#EEECEC;
+}
+
+.container {
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+#content-welcome {
+  position: absolute;
+  margin-top: 140px;
+  height: 600px;
+  width: 1200px;
+  left: 200px;
+  background-image: url('main/main.jpg');
+}
+
+.header {
+  background-color: #F9E3AC;
+  position: fixed;  
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;  
+  z-index: 1000;
+}
+
+.header > p {
+  font-family: head;
+  position: absolute;
+  left: 1490px;
+  top: 6px;
+}
+
+.header > a > img {
+  position: absolute;
+  left: 200px;
+  top: 15px;
+  width: 346px;
+  height: 30px;
+}
+
+.header > .buttons {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 20% 22% 37% 20%;
+  width: 686px;
+  height: 7.5px;
+  left: 605px;
+  top: 26px;
+}
+
+.header > .circles {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  left: 1300px;
+  top: 7px;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.header > .circles > img {
+  width: 35px;
+  height: 35px;
+}
+
+.header > .circles > .circle1 {
+  width: 35px;
+  height: 35px;
+}
+
+.header > .circles > .circle2 {
+  width: 35px;
+  height: 35px;
+}
+
+.header > .circles > .circle3 {
+  width: 35px;
+  height: 35px;
+}
+
+.header > .buttons > .button {
+  height: 7.5px;
+  font-family: regular;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+dual-block1 {
+  position: absolute;
+  top: 900px;
+  left: 200px;
+  background-image: url('main/main_left.jpg');
+  background-color: #e5e5e5;
+  width: 550px;
+  height: 150px;
+}
+
+dual-block2 {
+  position: absolute;
+  top: 900px;
+  left: 850px;
+  background-image: url('main/main_right.jpg');
+  width: 550px;
+  height: 150px;
+}
+
+.separator1 {
+  position: absolute;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 30px;
+  top: 1123px;
+}
+
+.news-content{
+  position: absolute;
+  background-image: url('main/news.jpg');
+  width: 500px;
+  height: 590px;
+  left: 200px;
+  top: 1355px;
+}
+
+.news-text {
+  position: absolute;
+  font-family: head;
+  color: #3A3232;
+  font-size: 30px;
+  left: 200px;
+  top: 1250px;
+}
+
+.news-text-small {
+  position: absolute;
+  font-family: head;
+  font-size: 14px;
+  left: 540px;
+  top: 1265px;
+  color: rgba(58, 50, 50, 0.7);
+}
+
+.news-line1 {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 200px;
+  top: 1293px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.news-line2 {
+  position: absolute;
+  width: 650px;
+  height: 0px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+  left: 750px;
+  top: 1293px;
+}
+
+.last-news-content {
+  position: absolute;
+  background-image: url('main/last_news.jpg');
+  width: 650px;
+  height: 590px;
+  left: 750px;
+  top: 1355px;
+}
+
+.last-news-text {
+  position: absolute;
+  left: 975px;
+  top: 1260px;
+  font-family: head;
+  font-size: 20px;
+  color: rgba(58, 50, 50, 0.9);
+}
+
+.separator2 {
+  position: absolute;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 30px;
+  top: 2020px;
+}
+
+.olympiads-content {
+  position: absolute;
+  background-image: url('main/olymps_main.jpg');
+  width: 500px;
+  height: 590px;
+  left: 200px;
+  top: 2255px;
+}
+
+.olymiapds-text {
+  position: absolute;
+  font-family: head;
+  font-size: 30px;
+  color: rgba(58, 50, 50, 0.9);
+  top: 2150px;
+  left: 150px;
+}
+
+.to-scroller {
+  position: absolute;
+  font-family: head;
+  font-size: 14px;
+  color: rgba(58, 50, 50, 0.7);
+  left: 1260px;
+  top: 2165px;
+}
+
+.olympiads-line1 {
+  position: absolute;
+  width: 1250px;
+  height: 0px;
+  left: 150px;
+  top: 2196px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.olympiads-text2 {
+  position: absolute;
+  font-family: head;
+  font-size: 20px;
+  color: rgba(58, 50, 50, 0.9);
+  left: 1070px;
+  top: 2255px;
+}
+
+.circles > a {
+  width: 80%;
+  height: 80%; 
+}
+
+.olympiads-news {
+  position: absolute;
+  width: 350px;
+  background-image: url('main/last_news_olymps.jpg');
+  height: 180px;
+  left: 1050px;
+  top: 2315px;
+}
+
+.olympiads-line2 {
+  position: absolute;
+  width: 350px;
+  height: 0px;
+  left: 1050px;
+  top: 2285px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.olympiads-text3 {
+  position: absolute;
+  font-family: head;
+  font-size: 30px;
+  color: rgba(58, 50, 50, 0.9);
+  left: 750px;
+  top: 2560px;
+}
+
+.nearest-perfs1 {
+  position: absolute;
+  background-image: url('main/nearest_perfs.jpg');
+  width: 650px;
+  height: 175px;
+  left: 750px;
+  top: 2670px;
+}
+
+.olympiads-line3 {
+  position: absolute;
+  width: 650px;
+  height: 0px;
+  left: 750px;
+  top: 2605px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.to-calendar1 {
+  position: absolute;
+  font-size: 13px;
+  font-family: head;
+  color: rgba(58, 50, 50, 0.7);
+  left: 1307px;
+  top: 2577px;
+}
+
+.separator3 {
+  position: absolute;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 30px;
+  top: 2920px;
+}
+
+.enrollment-content {
+  position: absolute;
+  background-image: url('main/applying.png');
+  width: 500px;
+  height: 600px;
+  left: 200px;
+  top: 3150px;
+}
+
+.enrollment-text1 {
+  position: absolute;
+  font-family: head;
+  font-size: 30px;
+  left: 150px;
+  top: 3084px;
+  color: rgba(58, 50, 50, 0.9);
+}
+
+.enrollment-text2 {
+  position: absolute;
+  font-family: head;
+  font-size: 14px;
+  left: 1262px;
+  top: 3099px;
+  color: rgba(58, 50, 50, 0.7);
+}
+
+.enrollment-line1 {
+  position: absolute;
+  width: 1250px;
+  height: 0px;
+  left: 150px;
+  top: 3130px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.enrollment-text3 {
+  position: absolute;
+  font-family: head;
+  font-size: 30px;
+  left: 750px;
+  top: 3494px;
+  color: rgba(58, 50, 50, 0.9);
+}
+
+.to-calendar2 {
+  position: absolute;
+  font-size: 13px;
+  font-family: head;
+  color: rgba(58, 50, 50, 0.7);
+  left: 1307px;
+  top: 3511px;
+}
+
+.nearest-perfs2 {
+  position: absolute;
+  background-image: url('main/applying_nearest_perfs.jpg');
+  width: 650px;
+  height: 175px;
+  left: 750px;
+  top: 3570px;
+}
+
+.enrollment-line3 {
+  position: absolute;
+  width: 650px;
+  height: 0px;
+  left: 750px;
+  top: 3538px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.separator4 {
+  position: absolute;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 30px;
+  top: 3854px;
+}
+
+.materials-content {
+  position: absolute;
+  background-image: url('main/materials.jpg');
+  width: 1200px;
+  height: 600px;
+  left: 200px;
+  top: 4080px;
+}
+
+.materials-text1 {
+  position: absolute;
+  font-size: 30px;
+  font-family: head;
+  color: rgba(58, 50, 50, 0.9);
+  left: 150px;
+  top: 3950px;
+}
+
+.materials-text2 {
+  position: absolute;
+  font-size: 14px;
+  font-family: head;
+  color: rgba(58, 50, 50, 0.7);
+  left: 1269px;
+  top: 3965px;
+}
+
+.materials-line {
+  position: absolute;
+  width: 1250px;
+  height: 0px;
+  left: 150px;
+  top: 3996px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+.separator5 {
+  position: absolute;
+  background-color: #e5e5e5;
+  width: 100%;
+  height: 30px;
+  top: 4720px;
+}
+
+.about-text {
+  position: absolute;
+  font-family: head;
+  font-size: 30px;
+  color: rgba(58, 50, 50, 0.9);
+  left: 150px;
+  top: 4826px;
+}
+
+.about-line {
+  position: absolute;
+  width: 1250px;
+  height: 0px;
+  left: 150px;
+  top: 4864px;
+  border: 1px solid rgba(58, 50, 50, 0.9);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer {
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5650px;
+  left: 0px;
+  width: 100%;
+  height: 150px;
+  background-color: #4A4740;
+}
+
+.footer > img {
+  position: absolute;
+  width: 300px;
+  height: 26px;
+  left: 32px;
+  bottom: 91px;
+}
+
+.footer > .text {
+  position: absolute;
+  color: white;
+  bottom: 34px;
+  left: 32px;
+  font-size: 10pt;
+}
